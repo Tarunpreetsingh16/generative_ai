@@ -17,12 +17,13 @@ https://generativeai-ryos32mrkvv4ue2rh4ys7u.streamlit.app/
 
 1. Input Data: Users provide customer details through the Streamlit interface.
 
-2. Data Encoding and Scaling:
-  2.1. Geography is one-hot encoded using a pre-trained encoder.
-  2.2. Gender is label-encoded using a pre-trained encoder.
-  2.3. Numerical features are scaled using a pre-trained scaler.
-3. Prediction: The preprocessed data is passed to the ANN model, which outputs the likelihood of the customer exiting.
-4. Output: The app displays the prediction result to the user.
+2. Data Encoding and Scaling:  
+   2.1. Geography is one-hot encoded using a pre-trained encoder.  
+   2.2. Gender is label-encoded using a pre-trained encoder.  
+   2.3. Numerical features are scaled using a pre-trained scaler.  
+
+4. Prediction: The preprocessed data is passed to the ANN model, which outputs the likelihood of the customer exiting.
+5. Output: The app displays the prediction result to the user.
 
 ## Installation and Running Locally
 
